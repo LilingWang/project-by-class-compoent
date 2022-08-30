@@ -1,0 +1,160 @@
+
+.create_new_user_form {
+    display: grid;
+}
+
+.form_container {
+    display: inline-flex;
+     width: 80%;
+     border: 1px solid #2585a5;
+}
+
+.form_container p {
+    text-align: center;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.btn_div {
+    display: inline-flex;
+    width: 60%;
+    margin-left: 70.3%;
+    margin-bottom: 10px;
+}
+
+.css-dmmspl-MuiFormGroup-root {
+    display: inline-block !important;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+    padding: 0.5px 54px !important;
+}
+
+.fileUploader {
+    border: none !important;
+  }
+
+  .fileContainer {
+    background: #fff;
+    box-shadow: none;
+    position: relative;
+    border-radius: 10px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.3s ease-in;
+    height: 275px;
+  }
+
+  .fileContainer p:empty {
+    font-size: 12px;
+    margin: 0;
+  }
+
+  .fileContainer .uploadPicturesWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    width: 300px;
+    height: auto;
+    background-image: url('./army_2.png');
+    background-size: 250px 200px;
+  }
+
+  .uploadPicturesWrapper > div:empty {
+    height: 1px;
+  }
+
+  .fileContainer .uploadPictureContainer {
+    width: 250px;
+    height: 200px;
+    margin: 0%; 
+    padding: 5px;
+    background: #edf2f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: inherit; */
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1);
+    /* border: 1px solid #d0dbe4; */
+    position: relative;
+  }
+
+  .fileContainer .deleteImage {
+    position: absolute;
+    right: unset;
+    top: unset;
+    border-radius: 0;
+    text-align: center;
+    cursor: pointer;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 30px;
+    width: 134px;
+    height: 30px;
+    left: 0;
+    bottom: -45px;
+    background-image: url(https://cdn.onlinewebfonts.com/svg/img_96165.png);
+    background-position: left 4px top 3px;
+    background-repeat: no-repeat;
+    background-size: 17px 23px;
+    background-color: transparent;
+    color: black;
+    overflow: hidden;
+    text-indent: -156px;
+  }
+
+  .fileContainer .deleteImage:after {
+    content: "Delete";
+    position: absolute;
+    right: -45px;
+    font-size: 16px;
+  }
+
+  .fileContainer .uploadPictureContainer img.uploadPicture {
+    width: 285px;
+    height: 235px;
+  }
+
+  .fileContainer .errorsContainer {
+    max-width: 300px;
+    font-size: 12px;
+    position: absolute;
+    z-index: 10;
+    top: 35%;
+    background: rgba(255, 0, 0, 0.7);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    width: 79%;
+    border-radius: 6px;
+  }
+  
+  .fileContainer .errorsContainer:empty {
+    opacity: 0;
+  }
+  .fileUploader {
+    border: 1px solid #e1e1e1;
+  }
+  .fileUploader .fileContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    padding:10px 10px;
+    box-shadow: none;
+    margin: 0 0 0 0;
+  }
+  
+  .fileUploader .fileContainer .uploadPicturesWrapper {
+   /* border: 1px solid #e1e1e1;*/
+    order: 1;
+    min-height: 200px;
+    margin-right: 15px;
+  } 
+
+  .fileContainer .uploadIcon {
+      display: none;
+  }
